@@ -10,8 +10,6 @@ export const getCurrentMonth = () => {
 }
 
 //filtrando data especifica, mês e ano 
-
-
 export const filterListByMonthAndYear = (list: Item[], date: string): Item[] => {
     let newList: Item[] = []
     let [year, month] = date.split('-')
@@ -20,9 +18,31 @@ export const filterListByMonthAndYear = (list: Item[], date: string): Item[] => 
         if (
             list[i].date.getFullYear() === parseInt(year) &&
             (list[i].date.getMonth() + 1) === parseInt(month)
-        ){
+        ) {
             newList.push(list[i]) //gera nova lista com os filtros
         }
     }
+  
     return newList
+}
+
+//formatação da data para padrão brasileiro
+
+export const formatDate = (date: Date): string => {
+  
+    let year = date.getFullYear();
+    let month = date.getMonth() + 1;
+    let day = date.getUTCDate();
+ 
+
+    return `${day}/${month}/${year}`
+}
+
+//formatação em escrito do mês (10 - OUTUBRO)
+
+export const formatMonthInWords = (currentMonth: string): string => {
+    let [year, month] = currentMonth.split('-')
+    let months = ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho','Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro']
+
+    return `${months[parseInt(month) - 1]} de ${year}`
 }
