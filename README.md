@@ -2,7 +2,7 @@
 
 # :speech_balloon: About
 
-It's an application for control your expenses. You can describe the value, type and what you are spending your money on. The app show the balance about on your finances.<br><br>
+It's an application for control your expenses. You can describe the value, type and where you're spending your money on. The app show the balance about on your finances.<br><br>
 
 ![image](https://user-images.githubusercontent.com/101833891/197776411-bebef8cd-9352-492d-b325-ac9e4e0f688b.png)
 
