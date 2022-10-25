@@ -1,46 +1,70 @@
-# Getting Started with Create React App
+# :triangular_flag_on_post: Project - Expenser Controller
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# :speech_balloon: About
 
-## Available Scripts
+It's an application for control your expenses. You can describe the value, type and what you are spending your money on. The app show the balance about on your finances.<br><br>
 
-In the project directory, you can run:
+![image](https://user-images.githubusercontent.com/101833891/197776411-bebef8cd-9352-492d-b325-ac9e4e0f688b.png)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Pré-requisitos
 
-### `npm test`
+In the first, you need to install in your computer the follow tools:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) and could be good a code editor like as [VSCode](https://code.visualstudio.com/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### :construction_worker: Run Web Project
 
-### `npm run build`
+```bash
+$ start React
+# npx create-react-app --template typescript
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Install Dependencies
+$ npm install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Run Aplication 
+$ npm start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Another Dependencies
+"styled-components": "^5.3.6"
+    
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Go to http://localhost:3000/ to see the result.<br>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# :computer: Technologies
+This project was made using the follow technologies:
+ 
+  [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)<br>
+  [Html](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/html/)  
+  [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)  
+  [React](https://developer.mozilla.org/pt-BR/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started)<br>
+  [Typescript](https://learn.microsoft.com/pt-br/archive/msdn-magazine/2015/january/typescript-understanding-typescript)
+
+
+# :pencil: Autor
+
+
+
+<img src="https://user-images.githubusercontent.com/101833891/178617851-68f6be80-9d8f-4f92-9bdd-8e2ec86b11ef.jpg" width="200px;"/>
+
+
+
+
+
+[![Linkedin Badge](https://img.shields.io/badge/-AngelicaRuiz-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/angelicaaruiz/)](https://www.linkedin.com/in/angelicaaruiz/) 
+[![Gmail Badge](https://img.shields.io/badge/-angelica.a.ruiz@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:angelica.a.ruiz@gmail.com)](mailto:angelica.a.ruiz@gmail.com)
+
+
+
+
+# :closed_book: License
+Released in 2022.
+This project is under the ![APM](https://img.shields.io/apm/l/dev)<br>
+Made with love by [Angélica Ruiz](https://github.com/DevAngelRuiz) 💜🚀
